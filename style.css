@@ -1,7 +1,21 @@
+:root {
+    --bg: #fbf8fd;
+    --text: #2a2236;
+    --accent: #6a3fb5;
+    --soft: #efe6fa;
+    --card: #ffffff;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
-    background: rgba(11, 2, 10, 0.855);
-    color: white;
-    font-family: Georgia, serif;
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    margin: 0;
 }
 header {
     background: #6a3fb5;
